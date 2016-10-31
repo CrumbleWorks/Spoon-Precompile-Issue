@@ -1,0 +1,3 @@
+Could also run manually by downloading jar-with-dependencies; from within project folder:
+
+java -classpath path\to\spoon-core-5.4.0-jar-with-dependencies.jar spoon.Launcher --with-imports --processors issue.spoon_precompile.SimpleProcessor --enable-comments --precompile -i .\src
